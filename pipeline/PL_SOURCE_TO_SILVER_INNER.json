@@ -143,7 +143,7 @@
 				"typeProperties": {
 					"notebookPath": "/Users/sami@danishazureoctobergmail.onmicrosoft.com/caresync_adb_repo/landing_to_bronze",
 					"baseParameters": {
-						"Source_System": {
+						"source_system": {
 							"value": "@activity('Read Table Details').output.firstRow.source_system",
 							"type": "Expression"
 						},
